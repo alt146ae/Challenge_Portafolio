@@ -1,180 +1,90 @@
-/*cabecera*/
-.cabecera__container{
+.menu{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    }
+
+.menu__header{
+    display: flex;  
+    }
+
+.menu__title{
     display: flex;
-    justify-content: start;
-    align-items: center;
-    position: fixed;
-    top: 0;
+    align-self:center;
 }
 
-.cabecera__buscar__item{
+.menu__list__item__contato{
+    display: flex;
+    align-self:flex-end;
+
+}
+
+.menu__list:nth-child(1),
+.menu__list:nth-child(2),
+.menu__list:nth-child(3),
+.menu__list:nth-child(4),
+.menu__list:nth-child(5)
+.menu__list:nth-child(6){
     display: none;
 }
 
-.menu__container{
-    position: fixed;
-    bottom: 0%;
-    height: 75px;
-    width: 100%;
+.title{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
 }
 
-.menu__lista{
+.title__div{
+    width: 50%;
+}
+
+.title__container{
+    display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+justify-content:space-between;
+}
+
+
+
+.title__network{
     display: flex;
-    justify-content: space-around;
-    height: 100%;
 }
 
-.menu__lista li{
-    align-self: center;
+.title__network li{
+    align-items:stretch;
 }
 
-.menu__itens {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-
-
-.menu__lista:nth-child(2),
-.menu__lista:nth-child(3),
-.menu__lista:nth-child(4){
-    display: none;
-}
-
-
-/*section superior menu*/
-.superior__seccion__container{
+.skills{
     display: flex;
     align-items: center;
     white-space: nowrap; /*es solo para el texto*/
-    overflow: scroll;
     gap: 15px; /*espacio entre elementos*/
-
 }
-.videos__item{
-    height: 303px;
-    width: 280px;
-    flex-grow: 1;
-    padding: 10px;
-}
-
-.videos__container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10;
+.about__container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
 }
 
-
-.descripcion-video {
-    margin-top: 1rem;
-    display: flex;
-    align-items: start; 
-    
-    
+.formcontato{
+    display:flex;
 }
 
-.descripcion-video img {
-    margin-right: 1rem; 
-    flex-shrink: 0;  /*  Evita que la imagen se reduzca */
-    
-}
-
-.detalles__video {
-    flex-direction: column;
-    text-align:left;
-
-}
-
-.detalles__video h3{
-    margin-bottom: 10px;
-}
-
-
-.rodapie__container{
-    display: flex;
-    /* flex-direction: column;
-    flex-wrap: wrap; */
-    flex-flow: column wrap;/*se distribuye en columna en el espacio disponible*/
-}
-
-
-
-
-
-/*tablets*/
-@media (min-width:834px) {
-/*cabecera*/
-    .cabecera__buscar__item{
-        display: block;
-}
-    .rodapie__container{ 
-        justify-content: space-between;
-    }
-
-    .menu__container {
-        left: 0;
-        height: auto;
-        width: 74px;
-        top: 80px;
-    }
-    
-    .menu__lista {
-        flex-direction: column;
-        justify-content: flex-start;
-        padding-top: 15px;
-        gap: 33px;
-    }
-}
-/*pc*/
-@media (min-width:1444px) {
-
-    .menu__container {
-        width: 239px;
-        overflow: scroll;
-        
-    }
-
-    .menu__lista:nth-child(2),
-    .menu__lista:nth-child(3),
-    .menu__lista:nth-child(4){
+.formcontato__form{
         display: flex;
-    }
-
-    .menu__lista {
-     height: auto;
-     padding: 20px 17px 20px 15px;
-     gap: 15px;
-    }
-
-    .menu__lista:nth-child(3){
-        flex-direction: column-reverse;
-    }
-
-
-    .menu__itens {
-        display: flex;
-        flex-direction:row;
-        gap: 15px;
+        flex-flow: column wrap;
+        gap: 10px;
         align-items: center;
-    }
-
-    .videojuegos{
-        order: 3;
-    }
-
-    .peliculas{
-        order: 2;
-    }
-    .premium{
-        order: 1;
-    }
-    
+        height: 303px;
+        width: 180px;
+}
 
 
 
-
-
-
-
+.formcontato__img{
+    display: none;
 }
