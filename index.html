@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Referencia de la hoja de estilo de Css -->
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/flexbox.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kite+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Fonte del Proyecto Raleway -->
@@ -16,12 +16,11 @@
 </head>
 <body>
     <!-- Sección del Menú  -->
-    <div class="tudo">
-    <section class="menu">
-        <header class="menu__header">
-            <img src="assets\vector.png">
-            <h3 class="menu__title">Emanuel Cortez Morales</h3>
-        </header>
+    <header>
+        <div class="logo">
+                <img class="logo-img" src="assets\vector.png">
+                <h3 class="menu__title">Emanuel Cortez Morales</h3>
+        </div>
         <nav>
             <ul class="menu__list">
                 <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
@@ -33,10 +32,10 @@
             </ul>
             <li class="menu__list__item__contato"><a href="#contacto">emanuel.cortezm@gmail.com</a></li>
         </nav>  
-    </section>
-
+    </header>
     <!-- Sección del Header/Title/Hero -->
-    <section class="title">
+<main>
+    <section class="profile">
         <div class="title__div">
             <img class="title__profile" src="assets\profile.png">
             <div class="title__container">
@@ -197,14 +196,13 @@
         <div class="experiencie__box">
             <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
             
-            <!-- Sección sobre mi 
+            <!-- Sección sobre mi -->
             <img class="experience__img" src="assets\decod_print.png">
-            <div class="experience__info"
+            <div class="experience__info">
                 <h2 class="experience__title">Encriptador de texto</h2>
                 <h3 class="experience__text">Challenge Alura Codificador </h3>
                     <div class="experience__description">
-                    -->
-                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                    <!-- Pon el enlace del proyecto en Github o GithubPages -->
                             <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experiencia__botao--repo">Repositório</button></a></span>
                             <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
                     </div>
@@ -212,14 +210,13 @@
         </div>  
 
         <div class="experiencie__box">
-            <!-- Pon el logotipo/captura de pantalla de tu proyecto 
+            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
             <img class="experience__img" src="assets\forca_print.png">
-             <div class="experience__info"
-               
+             <div class="experience__info">
             <h2 class="experience__title">Juego creado con HTML y JavaScript</h2>
                 <h3 class="experience__text">Challenge Oracle </h3>
-                    <div class="experience__description">-->
-                        <!-- Pon el enlace del proyecto en Github o GithubPages 
+                    <div class="experience__description">
+                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
                             <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button class="experiencia__botao--repo">Repositório</button></a></span>
                             <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>-->
                     </div>
@@ -227,33 +224,34 @@
         </div>  
 
         <div class="experience__box">
-            <!-- Pon el logotipo/captura de pantalla de tu proyecto 
+            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
             <img class="experience__img" src="assets\secretcode_print.png">
-            <div class="experience__info-container"
+            <div class="experience__info-container">
                 <h2 class="experience__title">Encriptador de texto</h2>
                 <h3 class="experience__text">Challenge Oracle </h3>
                     <div class="experience__description">
                              Pon el enlace del proyecto en Github o GithubPages 
                             <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experiencia__botao--repo">Repositório</button></a></span>
                             <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
-                     -->     </div>
+                         </div>
             </div>
         </div>  
 
         <div class="experience__box">
-            <!--
             <img class="experience__img" src="assets\forca2_print.png">
-            <div class="experience__info-container"
+            <div class="experience__info-container">
             <h2 class="experience__title">Juego creado con HTML, CSS y JavaScript</h2>
                 <h3 class="experience__text">Challenge Oracle </h3>
                     <div class="experience__description">
                             Pon el enlace del proyecto en Github o GithubPages 
                             <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button class="experiencia__botao--repo">Repositório</button></a></span>
                             <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
-                   --> </div>
-        </div>
+                    </div>
+            </div>
         </div>  
+    </section>
 
+</main>
         <!-- Sección de Contacto -->
         <section class="formcontato" id="contacto">
             <div  class="formcontato__contacto">

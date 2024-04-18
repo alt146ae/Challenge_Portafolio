@@ -11,16 +11,7 @@ coloque nas sessões indicadas*/
    --cor-de-link: #000;
 }
 
-body {
-    font-family: 'Raleway';
-    background-color: var(--cor-de-fundo);
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: auto;
-    font-size: 14px;
-    box-sizing: border-box;
-    }
+
     
 ol, ul,li {
     list-style: none;

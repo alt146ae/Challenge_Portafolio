@@ -1,0 +1,44 @@
+header{
+    height: 60px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;  /*items trabaja en coordenada x*/
+    gap: 10px; /*espacio entre items */
+}
+
+.logo-img{
+    height: 22px;
+}
+
+.menu__list{
+    display: none;
+}
+
+.menu__list li a{
+    color: #464646;
+}
+
+@media (min-width:1024px ){
+    header{
+
+    }
+
+    .logo{
+
+    }
+
+    .menu__list{
+
+    }
+
+    .menu__list__item__contato{
+        
+    }
+    
+}
+
