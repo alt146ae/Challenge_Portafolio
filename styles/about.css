@@ -1,3 +1,13 @@
+.about{
+    display: flex;
+    padding-top: 30px;
+    line-height: 1;
 
+}
+
+.about h3{
+    font-size: 35px;
+    font-weight: bold;
+}
 
 

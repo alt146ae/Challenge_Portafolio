@@ -1,3 +1,44 @@
+.skills__title{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
 
+.skills__line{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+    
+    
 
+}
 
+.skills__box{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 128px;
+    width: 146px;
+    
+    
+     
+}
+
+.skills__box ul{
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    width: 80px;
+    flex-grow: 1;
+    padding: 10px;
+    gap: 10px;
+}
+
+.skills__name{
+    
+    font-weight: bold;
+}

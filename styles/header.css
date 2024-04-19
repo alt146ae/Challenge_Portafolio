@@ -23,21 +23,32 @@ header{
     color: #464646;
 }
 
+.menu__list li b{
+    font-weight: bold;
+}
+
+.menu__list__item__contacto{
+    font-weight: bold;
+}
+
 @media (min-width:1024px ){
     header{
-
+        padding: 20px 80px;
     }
 
     .logo{
-
+        font-size: 16px;
     }
 
     .menu__list{
-
+        display: flex;
+        flex-direction: row;
+        font-size: 16px;
+        gap: 10px;
     }
 
-    .menu__list__item__contato{
-        
+    .menu__list__item__contacto{
+        display: none;
     }
     
 }
