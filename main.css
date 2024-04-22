@@ -3,6 +3,7 @@
 @import url("styles/profile.css");
 @import url("styles/about.css");
 @import url("styles/skills.css");
+@import url("styles/hobbies.css");
 body {
     font-family: 'Raleway';
     background-color: #f5f5f5;
