@@ -6,10 +6,8 @@
     line-height: 1;
     text-align: justify;
     line-height: 1.5;
+    width: 100vw;
 }
-
-
-
 
 .about h3{
     font-size: 35px;

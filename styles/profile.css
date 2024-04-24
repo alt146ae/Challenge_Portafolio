@@ -1,5 +1,6 @@
 .profile{
    display: flex;
+   width: 94vw;
 }
 /*imagen*/
 .title__profile{
@@ -40,7 +41,7 @@
 
 .title__container ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 1px;
     margin-bottom: 15px;
 }
@@ -73,7 +74,7 @@
 @media (min-width:1024px ){
 
  
-.title__div{
+    .title__div{
         
         padding: 0 30px;
         display: flex;
@@ -82,7 +83,7 @@
         justify-content: space-between;
     }
 
-.title__profile{
+    .title__profile{
         display: flex;
         justify-content: left;
         align-items: center;
@@ -93,9 +94,9 @@
         height: auto;
         }
 
-.title__container h2{
+        .title__container h2{
             white-space: normal;
-            font-size: 2.3em;
+            font-size: 2.2em;
             font-weight: bold;
             }
         
