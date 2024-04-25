@@ -25,13 +25,13 @@ a{
 
 .btn-1,
 .btn-2 {
-  /* background-color: red; */
-  width: 8vh;
+  /* background-color: red;  */
+  width: 40vw;
   height: 90px;
   display: flex;
-  justify-content: flex-start;
-  margin-top: 1px;
-  padding-top: 15px;
+  text-align: justify;
+  justify-content: space-evenly;
+  padding: 11px 1px;
   
   
   
@@ -40,8 +40,10 @@ a{
 .btn-1 a,
 .btn-2 a {
   text-decoration: none;
-  border: 2px solid #010100;
-  padding: 15px;
+  width: 108px;
+  height: 55px;
+  border: 5px solid #010100;
+  padding: 14px;
   color: #000;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -61,7 +63,7 @@ span {
   content: "";
   position: absolute;
   top: 5px;
-  left: -2px;
+  left: -5px;
   width: calc(100% + 6px);
   /*100% plus double the times left values*/
   height: calc(100% - 10px);
@@ -83,7 +85,7 @@ span {
   width: calc(100% - 10px);
   /*100% plus double the times left values*/
   height: calc(100% + 10px);
-  background-color: #f5f5f5;
+  background-color:#f5f5f5;
   transition: all 0.5s ease-in-out;
   transform: scaleX(1);
 }
