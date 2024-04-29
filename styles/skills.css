@@ -18,13 +18,18 @@
     }
 
 .skills__box{
-    background-color: white;
+    /* background-color: red; */
     display: flex;
-    align-items: center;
+    text-align: left;
+    align-items: flex-start;
     height: 128px;
     width: 146px
 }
 
+.skills__img{
+    width: 15vw;
+    height: 15vh;
+}
 .skills__box ul{
     display: flex;
     flex-direction: column;
@@ -36,8 +41,8 @@
 }
 
 .skills__name{
-    
     font-weight: bold;
+    
 }
 
 /*tablet*/

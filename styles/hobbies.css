@@ -36,6 +36,11 @@
     font-weight: bold;
 }
 
+.hobbies__img{
+    width: 15vw;
+    height: 15vh;
+}
+
 @media (min-width: 768px){
     .hobbies__line{
         display: flex;

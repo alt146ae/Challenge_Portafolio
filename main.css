@@ -10,7 +10,11 @@
 @import url("styles/contacto.css");
 body {
     font-family: 'Raleway';
-    background-color: #f5f5f5;
+    background-image: url('assets/f1.jpg');
+    background-size: cover;
+    background-position: center; /* Posiciona la imagen en el centro */
+    background-repeat: no-repeat;
+    /* background-color: #f5f5f5; */
     line-height: 1; /*separacion de linea*/
     font-family: "Kite One", sans-serif;
     font-style: normal;
