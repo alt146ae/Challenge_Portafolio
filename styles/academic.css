@@ -1,5 +1,5 @@
 .academic{
-    background-color: #eaf2fd;
+    /*background-color: #eaf2fd;*/
     display: flex;
     padding: 0 15px;
     justify-content: center;
@@ -13,7 +13,7 @@
     line-height: 1.5;
 }
 .academic_t{
-    background-color: #eaf2fd;
+   /* background-color: #eaf2fd;*/
     display: flex;
     width: 100vw;
     justify-content: center;
@@ -32,11 +32,11 @@
  }
 
 .academic__courses__box{
-    background-color: white;   
+    /*background-color: white;   */
               
 }
 .academic__courses__item__title{
-    background-color: #eaf2fd;
+    /*background-color: #eaf2fd;*/
     font-weight: bold;
     font-size: 1.2em;
     text-align: left;
@@ -48,7 +48,7 @@
 }
 
 .academic__courses__item__subtitle{
-    background-color: #eaf2fd;
+    /*background-color: #eaf2fd;*/
 }
 /*tablet*/
 @media (min-width: 768px){
@@ -62,7 +62,7 @@
 }
 
 .academic_t{
-    background-color: #eaf2fd;
+    /*background-color: #eaf2fd;*/
     display: flex;
     width: 100vw;
     justify-content: center;
@@ -78,7 +78,7 @@
     
 
 .academic__courses__item__title{
-    background-color: #eaf2fd;
+    /*background-color: #eaf2fd;*/
     font-weight: bold;
     font-size: 1.2em;
     text-align: left;

@@ -8,14 +8,16 @@
 }
 
 .hobbies__line{
+    /*background-color: aqua;*/
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    gap: 40px;
+    margin-bottom: 35px;
+    gap: 10px;
 }
 
 .hobbies__box{
-    background-color: white;
+    /*background-color: white;*/
     display: flex;
     align-items: center;
     height: 128px;
@@ -29,7 +31,7 @@
     width: 80px;
     flex-grow: 1;
     padding: 10px;
-    gap: 10px;
+    gap: 30px;
 }
 
 .hobbies__name{

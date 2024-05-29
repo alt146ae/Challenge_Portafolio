@@ -4,6 +4,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: #e7e5e5;
 }
 
 .logo{
