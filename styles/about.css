@@ -3,7 +3,7 @@
     display: flex;
     padding: 0 15px;
     padding-top: 30px;
-    line-height: 1;
+    
     text-align: justify;
     line-height: 1.5;
     width: 100vw;
@@ -16,12 +16,14 @@
 }
 
 
-@media (min-width:1024px ){
+@media (min-width:1023px ){
     
     .about{
         padding: 0 30px;
         display: flex;
-        line-height: 1.5;
+        line-height: 1.8;
+        font-size: 1.2em;
+
         
     }
     

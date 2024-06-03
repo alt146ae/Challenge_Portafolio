@@ -1,3 +1,38 @@
+.p1f{
+    padding-top: 1px;
+    text-align: center;
+    margin-bottom: 1px;
 
+    font-size: 12px;
+}
 
+.p2f{
+    padding-top: 1px;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 1px;
+    font-size: 12px;
+}
 
+@media (min-width: 768px) {
+
+    .p1f{
+        /*background-color: red;*/
+        padding-top: 1px;
+        text-align: center;
+        margin-top: 115px;
+        
+    
+        font-size: 12px;
+    }
+    
+    .p2f{
+        padding-top: 1px;
+        text-align: center;
+        margin-top: -20px;
+        
+        font-size: 12px;
+    }
+  
+ 
+}

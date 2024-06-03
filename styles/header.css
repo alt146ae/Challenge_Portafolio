@@ -21,7 +21,7 @@ header{
 }
 
 .menu__list li a{
-    color: #464646;
+    color: #fffbfb;
 }
 
 .menu__list li b{
@@ -32,9 +32,13 @@ header{
     font-weight: bold;
 }
 
-@media (min-width:1024px ){
+@media (min-width:1023px ){
     header{
-        padding: 20px 80px;
+        display: flex;
+        padding: 20px 40px;
+        justify-content: end;
+        
+       
     }
 
     .logo{
@@ -42,14 +46,15 @@ header{
     }
 
     .menu__list{
-        display: flex;
-        flex-direction: row;
+        /*background-color: red;*/
+       display: flex;
         font-size: 16px;
-        gap: 10px;
+        gap: 20px;
     }
 
     .menu__list__item__contacto{
-        display: none;
+             display: none;
+       
     }
     
 }

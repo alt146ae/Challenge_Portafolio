@@ -24,6 +24,9 @@
     padding: 10px 20px;
 }
 
+.formcontato__text p {
+    color: black;
+}
 .formcontato__form{
     display: flex;
     flex-direction: column;
@@ -81,3 +84,14 @@ button:hover{
     background:#78788c;
     color:#fff
 }
+
+
+@media (min-width: 768px) {
+
+
+    .formcontato__form{
+        /*background-color: red;*/
+        margin-top: 10px;
+    }
+}
+

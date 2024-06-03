@@ -27,12 +27,24 @@
 
     
     .experience__img{
-        display: flex;   
-        padding: 10px 10px 10px 0px;
-        width: 90vw;
-        height: 25vh;
+        max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+    }
+    
+    .experience__img_issste{
+        display: flex; 
+        width: 85vw;  
+        margin-bottom: 10px;
     }
 
+    .experience__img_c4{
+        display: flex;
+        background-color: whitesmoke;
+        width: 85vw;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
     .experience__info-container{
         /* background-color: red; */
         display: flex;
@@ -47,6 +59,14 @@
         display: flex;
         font-size: 1.3em;
         font-weight: bold;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        
+    }
+    .experience__info-container h3{
+        /*background-color: red;*/
+        display: flex;
+        margin-bottom: 10px;
         line-height: 1.5;
         
     }

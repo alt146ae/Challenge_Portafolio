@@ -19,12 +19,11 @@
 <body>
     <!-- Sección del Menú  -->
     <header>
-        <div class="logo">
+        <!-- <div class="logo">
                 <img class="logo-img" src="assets\vector.png">
                 <h3 class="menu__title">Emanuel Cortez Morales</h3>
-        </div>
-        <nav>
-            <ul class="menu__list">
+        </div> -->
+        <ul class="menu__list">
                 <li class="menu__list__item"><a href="#sobre-mi">Sobre mí</a></li>
                 <li class="menu__list__item"><a href="#skills">Skills</a></li>
                 <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
@@ -33,7 +32,7 @@
                 <li class="menu__list__item"><b><a href="#contacto">emanuel.cortezm@gmail.com</a></b></li>
             </ul>
             <li class="menu__list__item__contacto"><a href="#contacto">emanuel.cortezm@gmail.com</a></li>
-        </nav>  
+        
     </header>
     <!-- Sección del Header/Title/Hero -->
 <main>
@@ -113,6 +112,53 @@
         </div>
     </section>
 
+    <section class="soft-skills" id="soft-skills">
+        <h3 class="soft-skills__title">Soft Skills</h3>
+            <div class="soft-skills__line">
+                <div class="soft-skills__box">
+                    <ul>
+                        <li class="soft-skills__img"><img src="assets/pensamiento-critico.png"></li>
+                        <li class="soft-skills__name"> Pensamiento Critico</li>
+                    </ul>
+                </div>
+
+                <div class="soft-skills__box">
+                    <ul>
+                        <li class="soft-skills__img"> <img src="assets/inteligencia-emocional.png" alt=""></li>
+                        <li class="soft-skills__name">Inteligencia Emocional</li>
+                    </ul>
+                </div>
+
+                <div class="soft-skills__box">
+                    <ul>
+                        <li class="soft-skills__img"> <img src="assets/cognitivo.png" alt=""></li>
+                        <li class="soft-skills__name">Flexibilidad Cognitiva</li>
+                    </ul>
+                </div>
+
+                <div class="soft-skills__box">
+                    <ul>
+                        <li class="soft-skills__img"><img src="assets/colaboracion.png" alt=""></li>
+                        <li class="soft-skills__name">Colaboración</li>
+                    </ul>
+                 </div>
+
+                <div class="soft-skills__box">
+                    <ul>
+                        <li class="soft-skills__img"> <img src="assets/toma-de-decisiones.png" alt=""> </li>
+                        <li class="soft-skills__name">Juicio y toma de decisiones</li>
+                    </ul>
+                </div>
+
+                <div class="soft-skills__box">
+                    <ul>
+                        <li class="soft-skills__img"> <img src="assets/habilidades-de-negociacion.png" alt=""> </li>
+                        <li class="soft-skills__name">Negociación</li>
+                    </ul>
+                </div>
+        </div>
+    </section>
+
     <!-- Sección de Hobbies -->
     <section class="hobbies" id="hobbies">
         <h3 class="hobbies__title">Hobbies</h3>
@@ -134,14 +180,14 @@
                 <div class="hobbies__box">
                     <ul>
                         <li class="hobbies__img"> <img src="assets\headphones_icon.png" alt=""></li>
-                        <li class="hobbies__name">Oir música</li>
+                        <li class="hobbies__name">Oír música</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
                     <ul>
                         <li class="hobbies__img"><img src="assets/video.png" alt=""></li>
-                        <li class="hobbies__name">Ver séries</li>
+                        <li class="hobbies__name">Ver series</li>
                     </ul>
                 </div>
 
@@ -189,7 +235,7 @@
                 <ul class="academic__courses__list">
                     <!-- Pon el logotipo de la institución de formación -->
                     <li class="academic__courses__item__img"><img src="assets/hh.jpeg"></li>
-                    <li class="academic__courses__item__title"><h4>Tecnico Profesional en ingles</h4></li>
+                    <li class="academic__courses__item__title"><h4>Técnico Profesional en inglés</h4></li>
                     <li class="academic__courses__item__subtitle"><p>2001-2003 Harmon Hall</p></li>
                 </ul>
             </div>
@@ -201,10 +247,19 @@
      <h2 class="experience__section__title" >Experiencia Profesional</h2>
      <div class="experience__box">
         <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-        <img class="experience__img" src="assets/encr.png">
+        
+        <img class="experience__img" src="assets/encr.png"
+        srcset="
+        assets/encr.png 450w,
+        assets/tablet-encriptador.png 768w">
+        
+
+       
         <div class="experience__info-container">
+            <div class="experience__box">
             <h2 class="experience__title">Encriptador de texto</h2>
             <h3 class="experience__text">Challenge Oracle </h3>
+        </div>
         <div class="experience__description">
                     <!-- Pon el enlace del proyecto en Github o GithubPages  -->
                     <br>
@@ -217,22 +272,24 @@
                         <button class="boton--demo">Ver demo</button></a></span>
                     </div>
         </div>
-        </div>
-            
+        </div>             
     </div>  
-<!--
         <div class="experience__box">
-            <img class="experience__img" src="assets\forca2_print.png">
+            <img class="experience__img_issste" src="assets/LOGO_ISSSTE.png">
             <div class="experience__info-container">
-            <h2 class="experience__title">Juego creado con HTML, CSS y JavaScript</h2>
-                <h3 class="experience__text">Challenge Oracle </h3>
-                    <div class="experience__description">
-                            Pon el enlace del proyecto en Github o GithubPages 
-                            <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
-                    </div>
+            <h2 class="experience__title">Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado de Tlaxcala</h2>
+                <h3 class="experience__text">Jefe de Informática </h3>
+                    
             </div>
-        </div>  -->
+        </div>  
+        <div class="experience__box">
+            <img class="experience__img_c4" src="assets/sesep.png">
+            <div class="experience__info-container">
+            <h2 class="experience__title">Secretariado Ejecutivo del Sistema Estatal de Seguridad Pública (SESESP)</h2>
+                <h3 class="experience__text">Jefe de Departamento de Telefonía, Transporte y Videovigilancia de C4 Tlaxcala </h3>
+                    
+            </div>
+        </div>  
     </section>
 
 </main>
@@ -246,25 +303,25 @@
             <h2 class="formcontato__title">Contacto</h2>
             <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
             <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
-                <form class="formcontato__form" name="form">
+                <form action="https://formsubmit.co/emanuel.cortezm@gmail.com" method="POST" class="formcontato__form" name="form">
                 <p type="Nombre:"><input class="formcontato__input" name="nombre" placeholder="XXXXX-XXXXX-XXXXX"></p>
                 <p type="E-mail:"><input class="formcontato__input" name="email" placeholder="ejemplo@dominio.com"></p>
                 <p type="Asunto:"><input class="formcontato__input" name="asunto" placeholder="XXXXXXXXXX"></p>
                 <p type="Mensaje"><textarea class="formcontato__textarea" rows="5" cols="30" id="mensagem" name="mensaje" placeholder="Escribe aqui tu mensaje"></textarea></p>
-                <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                <button type="submit" class="formcontato__botao">Enviar</button>
             </form>
         </div>
     </div>
         </section>
 
         <!-- Sección de Footer -->
-        <section class="footer">
-            <div class="footer__rodape">
-                <p>Desarrollado por Emanuel Cortez Morales</p>
-                <p>2024</p>
+    <section class="footer">
+            <div class="footer__rodapie">
+                <p class="p1f">Desarrollado por Emanuel Cortez Morales</p>
+                    <p class="p2f">2024</p>
             </div>
         </section>
-    </div>
+    
  <!-- Script del documento JavaScript -->
 <script src="validacion.js"></script>
 </body>
