@@ -1,5 +1,11 @@
+
 .formcontato--esquerda {
     display: none;
+}
+
+.formulario__campo {
+    width: 80%;
+    margin-bottom: 1em;
 }
 
 .formcontato__text {
@@ -25,25 +31,6 @@
     padding: 10px 20px;
 }
 
-.formcontato__text p {
-    color: black;
-}
-
-.formcontato__form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 340px;
-    height: 540px;
-    background: #e6e6e6;
-    border-radius: 8px;
-    box-shadow: 0 0 40px -10px #000;
-    margin: calc(7vh - 200px) auto;
-    padding: 10px 15px;
-    max-width: calc(100vw - 40px);
-    box-sizing: border-box;
-    position: relative
-}
 
 input {
     width: 100%;
@@ -86,16 +73,77 @@ button:hover {
     background: #78788c;
     color: #fff
 }
+.campo__completo {
+    
+    display: block;
+    border: white 8px ridge;
+    margin: 10px;
+    border-radius: 20px;
+    width: 100%;
+    padding: 1em;
+    margin-top: .5em;
+
+}
+
+.campo__etiqueta{
+    margin: 10px;
+}
+#mensaje{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 96%;
+    border: white 8px ridge;
+    border-radius: 10px;
+    color:white;
+}
+.mensaje-error {
+    display: block;
+    margin-top: 5px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: .925rem;
+    color: red;
+}
+
+.campo__completo--error {
+    border: 2px solid red;
+}
+
+.campo__etiqueta {
+    font-weight: 500;
+    line-height: 20px;
+}
 
 
 @media (min-width: 768px) {
 
 
-    .formcontato__form {
-        /*background-color: red;*/
-        margin-top: 10px;
+    .formulario{
+        font-size: 1.3em;
+    }
+
+    .formulario__titulo-texto{
+        font-size: 26px;
+    }
+
+    .formulario__campo {
+        width: 95%;
+    }
+    .campo__etiqueta{
+        margin: 10px;
+    }
+
+    #mensaje{
+        width: 95%;
+    }
+
+   
+
+    .formulario__boton{
+        margin-bottom: 70px;
     }
 }
+
 
 @media (min-width: 1023px) {
     .formcontato__contacto {
@@ -114,8 +162,6 @@ button:hover {
         
         /* Borde para visualizar el contenedor */
     }
-
-
 
 
     .formcontato--esquerda {
@@ -139,4 +185,10 @@ button:hover {
   
   margin-right: 10px; /* Espacio a la derecha del elemento */
 }
+
+#mensaje{
+    margin: 1px;
+    width: 95%;
+}
+
 }
