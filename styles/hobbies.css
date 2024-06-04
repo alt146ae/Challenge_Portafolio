@@ -93,24 +93,26 @@
 @media (min-width:1023px) {
 
     .hobbies__line {
+        /*background-color: red;*/
         display: flex;
-        flex-flow: row;
+        flex-flow: nowrap;
         justify-content: space-between;
-        padding: 10px;
-        gap: 10px;
+        width: 100%;
+        
     }
 
     .hobbies__box {
         display: flex;
-        flex-flow: row;
-        justify-content: space-between;
-        padding: 10px;
-        gap: 10px;
+        flex-flow: nowrap;
+        width: 10%;
+        padding: 15px;
+        margin-left: 1px;
+        gap: 12px;
     }
     .hobbies__img{
         display: flex;
         flex-flow: row;
-        justify-content: space-between;
+        
         padding: 10px;
         gap: 10px;
         width: 11vw;
@@ -118,11 +120,10 @@
     }
     .hobbies__box ul{
         display: flex;
-        flex-flow: column;
-        justify-content: space-between;
+             
         height: 100px;
         width: 100px;
-        padding: 1px;
+        padding: 10px;
         gap: 10px;
     }
 }

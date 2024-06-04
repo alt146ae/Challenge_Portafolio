@@ -36,3 +36,22 @@
   
  
 }
+
+@media (min-width:1023px) {
+    .p1f{
+        /*background-color: red;*/
+        padding-top: 25px;
+        text-align: center;
+        margin-top: 115px;
+        font-size: 14px;
+    }
+    
+    .p2f{
+        padding-top: 1px;
+        text-align: center;
+        margin-top: -20px;
+        
+        font-size: 12px;
+    }
+  
+}
