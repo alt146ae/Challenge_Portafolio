@@ -1,6 +1,6 @@
 import {tiposDeError, mensajes} from "./customErrors.js";
 
-
+const BotonEnviar = document.querySelector("[data-boton-enviar]")
 const camposDeFormulario = document.querySelectorAll ("[required]");
 const formulario= document.querySelector("[data-formulario]")
 formulario.addEventListener("submit", (e)=>{
@@ -43,3 +43,12 @@ function verificarCampo (campo){
         mensajeError.textContent = ""
     }
 }
+
+BotonEnviar.addEventListener("click", () => {
+    const recibirDatos = localStorage.getItem("registro")
+    const convertirDatos = JSON.parse(recibirDatos)
+
+    /*convertirDatos.img_url = imgUrl*/
+    localStorage.setItem("registro", JSON.stringify(convertirDatos));
+    window.location.href = "./index.html";
+});
