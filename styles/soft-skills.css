@@ -130,3 +130,23 @@
         
             }
 }
+
+/*full hd*/
+@media (min-width:1420px){
+
+    .soft-skills{
+        margin-top: 1px;
+        height: 400px;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    .soft-skills__title {
+        font-size: 55px;
+        }
+.soft-skills__name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+    }

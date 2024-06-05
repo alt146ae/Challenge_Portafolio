@@ -87,15 +87,10 @@
     
 }
 
-
-
-
-
 }
 
 
-
-@media (min-width:1024px){
+@media (min-width:1023px){
 
     .academic{
         display: flex;
@@ -104,5 +99,33 @@
     justify-content: space-evenly;
 }
 
+}
+
+/*full hd*/
+@media (min-width:1420px) {
+    .academic_t{
+        margin-top: 200px;
+    }
+    .academic__title {
+        display: flex;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        justify-content: center;
+        font-size: 55px;
+        font-weight: bold;
+    }
+    .academic{
+        margin-top: 15px;
+        margin-bottom: -100px;
+        height: 400px;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    .academic__courses__list{
+        font-size: 1.5em;
+        margin-bottom: 150px;
+
+    }
 }
 

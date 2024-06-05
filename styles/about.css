@@ -31,5 +31,12 @@
 
 @media (min-width:1420px){
 
-    
+    .about{
+        padding: 0 30px;
+        display: flex;
+        line-height: 1.8;
+        font-size: 1.8em;
+
+        
+    }
 }
