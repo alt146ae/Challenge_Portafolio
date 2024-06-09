@@ -16,6 +16,7 @@ formulario.addEventListener("submit", (e)=>{
 }
     localStorage.setItem("registro", JSON.stringify(listaRespuestas))
 
+    
 })
 
 camposDeFormulario.forEach ((campo) => {
