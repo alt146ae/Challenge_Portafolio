@@ -3,7 +3,13 @@ export const tiposDeError = [
     "typeMissmatch",
     "patterMissmatch",
     "tooShort",
-    "customError"
+    "customError",
+    "tooLong",
+    "rangeOverflow",
+    "rangeUnderflow",
+    "stepMismatch",
+    "badInput",
+    "customError",
 ]
 
 export const mensajes = {
@@ -11,6 +17,7 @@ export const mensajes = {
         valueMissing: "El campo nombre no puede estar vacío.",
         patternMismatch: "Por favor, ingrese un nombre válido.",
         tooShort: "Por favor, ingrese un nombre válido.",
+        tooLong: "Este campo no puede tener más de 50 caracteres.",
     },
     email: {
         valueMissing: "El campo email no puede estar vacío.",
@@ -26,7 +33,7 @@ export const mensajes = {
         valueMissing: "El campo mensaje no puede estar vacío.",
         patternMismatch: "El campo no tiene caracteres suficientes.",
         tooShort: "El campo no tiene caracteres suficientes.",
-      },
+    },
     terminos: {
         valueMissing: "Debes aceptar los términos antes de continuar.",
     },
