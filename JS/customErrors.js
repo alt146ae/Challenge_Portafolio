@@ -25,14 +25,14 @@ export const mensajes = {
         tooShort: "Por favor, ingrese un e-mail válido.",
     },
     asunto: {
-        valueMissing: "El campo identificación no puede estar vacío.",
+        valueMissing: "El campo asunto no puede estar vacío.",
         patternMismatch: "Por favor, ingrese un número de identificación válido.",
-        tooShort: "El campo no tiene caracteres suficientes.",
+        tooShort: "El campo asunto no tiene caracteres suficientes.",
     },
     mensaje: {
         valueMissing: "El campo mensaje no puede estar vacío.",
         patternMismatch: "El campo no tiene caracteres suficientes.",
-        tooShort: "El campo no tiene caracteres suficientes.",
+        tooShort: "El campo mensaje no tiene caracteres suficientes.",
     },
     terminos: {
         valueMissing: "Debes aceptar los términos antes de continuar.",

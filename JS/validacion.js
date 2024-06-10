@@ -11,12 +11,12 @@ formulario.addEventListener("submit", (e)=>{
     const listaRespuestas = {
         nombre:e.target.elements["nombre"].value, 
         email:e.target.elements["email"].value,
-        asunto:e.target.elements["asunto"].value,
+        asunto:e.target.elements["asunto"].ifenti,
         mensaje:e.target.elements["mensaje"].value,
 }
     localStorage.setItem("registro", JSON.stringify(listaRespuestas))
 
-    
+
 })
 
 camposDeFormulario.forEach ((campo) => {
