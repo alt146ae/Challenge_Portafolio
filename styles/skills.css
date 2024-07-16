@@ -45,7 +45,7 @@
 }
 
 /*tablet*/
-@media (min-width: 781px) and (max-width: 1024px) {
+@media (min-width: 781px) and (max-width: 1200px) {
 
     .skills{
         
@@ -108,20 +108,22 @@
 /*pc*/
 
 
-@media (min-width: 1025px) and (max-width: 1920px) {
+@media (min-width: 1201px) and (max-width: 1800px) {
 
-    .skills__line {
-        display: flex;
+    .skills{
+        
+        width: 95dvw;
+        height: 40dvh;
+        padding: 25px;
+        justify-content: space-evenly;
         flex-flow: row;
-        justify-content: space-between;
-        padding: 10px;
-        gap: 10px;
+        
     }
-
+    
     .skills__box {
+        
         display: flex;
         flex-flow: row;
-        justify-content: space-between;
         padding: 10px;
         gap: 10px;
     }
@@ -129,7 +131,7 @@
     .skills__img {
         display: flex;
         flex-flow: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
         padding: 10px;
         gap: 10px;
         width: 11vw;
@@ -137,6 +139,7 @@
     }
 
     .skills__box ul {
+        
         display: flex;
         flex-flow: column;
         justify-content: space-between;
@@ -148,11 +151,12 @@
 
     .skills__name {
         font-weight: bold;
+        text-align: center;
 
     }
 }
 /*full hd*/
-@media (min-width:1480px) {
+@media (min-width:1801px) {
 
     .skills {
         /*background-color: yellow;*/

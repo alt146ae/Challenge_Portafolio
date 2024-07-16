@@ -45,7 +45,7 @@
 }
 
 /*tablet*/
-@media (min-width: 781px) and (max-width: 1024px) {
+@media (min-width: 781px) and (max-width: 1200px) {
 
     .soft-skills{
         width: 90dvw;
@@ -82,11 +82,19 @@
 }
 
 /*pc*/
-@media (min-width:1023px) {
+@media (min-width: 1201px) and (max-width: 1800px) {
+
+    .soft-skills {
+        width: 95dvw;
+        height: 40dvh;
+        padding: 25px;
+        justify-content: space-evenly;
+        flex-flow: row;
+    }
 
     .soft-skills__title {
         display: flex;
-        margin-top: 200px;
+        
         margin-bottom: 10px;
         justify-content: center;
         font-size: 35px;
@@ -142,7 +150,7 @@
 }
 
 /*full hd*/
-@media (min-width:1420px){
+@media (min-width:1801px){
 
     .soft-skills{
         margin-top: 1px;

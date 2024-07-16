@@ -47,7 +47,7 @@
 
 
 /*tablet*/
-@media (min-width: 781px) and (max-width: 1024px) {
+@media (min-width: 781px) and (max-width: 1200px) {
 
     .hobbies{
         width: 90dvw;
@@ -85,41 +85,50 @@
     }
 }
 
-@media (min-width:1023px) {
+/*pc*/
 
-    .hobbies__line {
-        /*background-color: red;*/
-        display: flex;
-        flex-flow: nowrap;
-        justify-content: space-between;
-        width: 100%;
-        
+
+@media (min-width: 1201px) and (max-width: 1800px) {
+
+    
+    .hobbies{
+        width: 95dvw;
+        height: 40dvh;
+        padding: 25px;
+        justify-content: space-evenly;
+        flex-flow: row;
     }
+    
+ 
 
     .hobbies__box {
         display: flex;
-        flex-flow: nowrap;
-        width: 10%;
-        padding: 15px;
-        margin-left: 1px;
-        gap: 12px;
+        flex-flow: row;
+        padding: 10px;
+        gap: 10px;
     }
     .hobbies__img{
         display: flex;
         flex-flow: row;
-        
+        justify-content: space-evenly;
         padding: 10px;
         gap: 10px;
         width: 11vw;
         height: 17vh;
     }
     .hobbies__box ul{
-        display: flex;
-             
+        display: flex; 
         height: 100px;
         width: 100px;
         padding: 10px;
         gap: 10px;
+    }
+.hobbies__title{
+    margin-top: 2px;
+}
+    .hobbies__name{
+        font-weight: bold;
+        text-align: center;
     }
 }
 

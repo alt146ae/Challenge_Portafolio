@@ -10,6 +10,7 @@
 .formcontato__img {
     display: none;
 }
+
 .formcontato__text {
     /* background-color: red; */
     display: flex;
@@ -34,7 +35,7 @@
 }
 
 
-.campo__completo{
+.campo__completo {
     width: 90dvw;
     padding: 10px;
     box-sizing: border-box;
@@ -113,12 +114,13 @@ button:hover {
     line-height: 20px;
 }
 
-@media (min-width: 781px) and (max-width: 1024px) {
+@media (min-width: 781px) and (max-width: 1200px) {
 
-    .formcontato{
-        
+    .formcontato {
+
         margin-bottom: 1px;
     }
+
     .formcontato__contacto {
         background-color: rgb(0, 0, 0, .8);
         /*  background-color: red;*/
@@ -139,7 +141,7 @@ button:hover {
         display: flex;
         /* Configura el contenedor como flexbox */
         padding: 5px;
-        
+
         /* Espacio interno del contenedor */
         /* background-color: #e0e0e0; /* Fondo para diferenciar el contenedor */
 
@@ -149,16 +151,16 @@ button:hover {
         display: none;
     }
 
-    .campo__completo{
+    .campo__completo {
         margin-left: 10px;
         margin-right: 10px;
-        width: 90dvw; 
+        width: 90dvw;
     }
 
     #mensaje {
         margin-left: 10px;
         margin-right: 10px;
-        width: 90dvw; 
+        width: 90dvw;
     }
 
     .formcontato__text h2 {
@@ -170,39 +172,67 @@ button:hover {
         font-size: 2em;
     }
 
-    .formcontato__botao{
-         float: left;
-         width: 25dvw;
+    .formcontato__botao {
+        float: left;
+        width: 25dvw;
     }
 }
 
 
-@media (min-width: 1025px) and (max-width: 1920px) {
+@media (min-width: 1201px) and (max-width: 1919px) {
 
-
-    .formulario {
-        font-size: 1.3em;
+    .formcontato {
+        
+        display: flex;
+        width: 95dvw;
+        height: 90dvh;
+        
     }
 
-    .formulario__titulo-texto {
-        font-size: 26px;
+    .formcontato__img {
+        display: block;
+
+        width: 50dvw;
+        height: 80dvh;
+    }
+
+    .formcontato__text h2 {
+        display: flex;
+        font-size: 2.5em;
+    }
+
+    .formcontato__text h3 {
+        
+        width: 45dvw;
+        display: flex;
+        font-size: 1.5em;
+        text-align: justify;
     }
 
     .formulario__campo {
-        width: 95%;
+        
+        width: 45dvw;
     }
 
     .campo__etiqueta {
         margin: 10px;
     }
 
+    .campo__completo {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 43dvw;
+    }
+
     #mensaje {
-        width: 95%;
+        width: 41dvw;
     }
 
 
-
-    .formulario__boton {
-        margin-bottom: 70px;
+    .formcontato__botao {
+        
+        float: left;
+        width: 15dvw;
     }
+
 }
