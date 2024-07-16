@@ -34,21 +34,23 @@
  .Container_Botones{
     display: flex;
       flex-wrap: nowrap;
-      justify-content: center;
+      justify-content: space-evenly;
       font-size: 1.4em;
       gap: 20px; 
       
+      width: 400px;
+      font-size: .9em;
   }
 
 
 .boton--repo{
-    height: 64px;
-    width: 281px;
+    height: 50px;
+    width: 120px;
     cursor: pointer;
     
     position: relative;
     display: inline-block;
-    padding: 15px 30px;
+    padding: 5px 3px;
     border-radius:20px;
     letter-spacing: 4px;
     text-decoration: none;
@@ -66,8 +68,8 @@
 
 
 .boton--demo{
-    height: 64px;
-   width: 281px;
+    height: 50px;
+   width: 120px;
    cursor: pointer;
    letter-spacing: 4px;
    border-radius:20px;
@@ -151,7 +153,7 @@
 }
 
 /*full hd*/
-@media (min-width:1420px) {
+@media (min-width:1441px) {
     .academic_t{
         margin-top: 200px;
     }
@@ -176,5 +178,22 @@
         margin-bottom: 150px;
 
     }
+
+    .Container_Botones{
+        
+        width: 25dvw;
+        height: 10dvh;
+        font-size: 1.8em;
+    }
+
+    .boton--repo{
+        width: 15dvw;
+        height: 10dvh;
+    }
+    .boton--demo{
+        width: 15dvw;
+        height: 10dvh;
+    }
+
 }
 
