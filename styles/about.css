@@ -16,7 +16,7 @@
 }
 
 
-@media (min-width:1023px ){
+@media (min-width: 781px) and (max-width: 1024px) {
     
     .about{
         padding: 0 30px;

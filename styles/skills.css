@@ -45,8 +45,16 @@
 }
 
 /*tablet*/
-@media (min-width: 768px) {
+@media (min-width: 781px) and (max-width: 1024px) {
 
+    .skills{
+        
+        width: 90dvw;
+        height: 60dvh;
+        padding: 25px;
+        
+    }
+    
     .skills__title {
         display: flex;
         margin-top: 30px;
@@ -58,9 +66,12 @@
     }
 
     .skills__line {
-        /*background-color: yellow;*/
+        
         display: flex;
         flex-flow: wrap;
+        width: 90dvw;
+        height: 40dvh;
+        
     }
 
     .skills__box {
@@ -97,7 +108,7 @@
 /*pc*/
 
 
-@media (min-width:1023px) {
+@media (min-width: 1025px) and (max-width: 1920px) {
 
     .skills__line {
         display: flex;

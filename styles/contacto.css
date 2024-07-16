@@ -1,6 +1,6 @@
 
 .formcontato--esquerda {
-    display: none;
+    display: flex;
 }
 
 .formulario__campo {
@@ -115,7 +115,7 @@ button:hover {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 1025px) and (max-width: 1920px) {
 
 
     .formulario{
