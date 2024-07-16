@@ -1,4 +1,3 @@
-
 .formcontato--esquerda {
     display: flex;
 }
@@ -8,6 +7,9 @@
     margin-bottom: 1em;
 }
 
+.formcontato__img {
+    display: none;
+}
 .formcontato__text {
     /* background-color: red; */
     display: flex;
@@ -73,8 +75,9 @@ button:hover {
     background: #78788c;
     color: #fff
 }
+
 .campo__completo {
-    
+
     display: block;
     border: white 8px ridge;
     margin: 10px;
@@ -85,17 +88,19 @@ button:hover {
 
 }
 
-.campo__etiqueta{
+.campo__etiqueta {
     margin: 10px;
 }
-#mensaje{
+
+#mensaje {
     margin-left: 10px;
     margin-top: 10px;
     width: 96%;
     border: white 8px ridge;
     border-radius: 10px;
-    color:white;
+    color: white;
 }
+
 .mensaje-error {
     display: block;
     margin-top: 5px;
@@ -114,42 +119,15 @@ button:hover {
     line-height: 20px;
 }
 
+@media (min-width: 781px) and (max-width: 1024px) {
 
-@media (min-width: 1025px) and (max-width: 1920px) {
-
-
-    .formulario{
-        font-size: 1.3em;
+    .formcontato{
+        background-color: red;
+        margin-bottom: 15px;
     }
-
-    .formulario__titulo-texto{
-        font-size: 26px;
-    }
-
-    .formulario__campo {
-        width: 95%;
-    }
-    .campo__etiqueta{
-        margin: 10px;
-    }
-
-    #mensaje{
-        width: 95%;
-    }
-
-   
-
-    .formulario__boton{
-        margin-bottom: 70px;
-    }
-}
-
-
-@media (min-width: 1023px) {
     .formcontato__contacto {
-        background-color: rgb(0, 0, 0,.8);
-      /*  background-color: red;*/
-        display: flex;
+        background-color: rgb(0, 0, 0, .8);
+        /*  background-color: red;*/
         display: flex;
         /* Configura el contenedor como flexbox */
         flex-direction: row;
@@ -160,43 +138,77 @@ button:hover {
         /* Alinea los elementos al inicio vertical */
         padding: 10px;
         /* Espacio interno del contenedor */
-        
         /* Borde para visualizar el contenedor */
     }
 
-
     .formcontato--esquerda {
-    display: flex; /* Configura el contenedor como flexbox */
-    
-    
-    padding: 5px; /* Espacio interno del contenedor */
-   /* background-color: #e0e0e0; /* Fondo para diferenciar el contenedor */
-    
+        display: flex;
+        /* Configura el contenedor como flexbox */
+        padding: 5px;
+        
+        /* Espacio interno del contenedor */
+        /* background-color: #e0e0e0; /* Fondo para diferenciar el contenedor */
+
+    }
+
+    .formcontato__img {
+        display: none;
+    }
+
+    .campo__completo{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 90dvw; 
+    }
+
+    #mensaje {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 90dvw; 
+    }
+
+    .formcontato__text h2 {
+
+        font-size: 7.5em;
+    }
+
+    .formcontato__text h3 {
+        font-size: 2em;
+    }
+
+    .formcontato__botao{
+         float: left;
+         width: 25dvw;
+    }
 }
 
-.formcontato__img{
-    display: flex;
-    margin-top: 150px;
-    width: 1200px;
-    height: 750px;
-}
-.formcontato__text{
-    padding: 10px; /* Espacio interno del elemento */
- 
-  
-  margin-right: 10px; /* Espacio a la derecha del elemento */
-}
 
-#mensaje{
-    margin: 1px;
-    width: 95%;
-}
+@media (min-width: 1025px) and (max-width: 1920px) {
 
-.formcontato__text h2{
-    
-    font-size: 7.5em;
-}
-.formcontato__text h3{
-    font-size: 2em;
-}
+
+    .formulario {
+        font-size: 1.3em;
+    }
+
+    .formulario__titulo-texto {
+        font-size: 26px;
+    }
+
+    .formulario__campo {
+        width: 95%;
+    }
+
+    .campo__etiqueta {
+        margin: 10px;
+    }
+
+    #mensaje {
+        width: 95%;
+    }
+
+
+
+    .formulario__boton {
+        margin-bottom: 70px;
+    }
 }

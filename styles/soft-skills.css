@@ -45,7 +45,15 @@
 }
 
 /*tablet*/
-@media (min-width: 768px) {
+@media (min-width: 781px) and (max-width: 1024px) {
+
+    .soft-skills{
+        width: 90dvw;
+        height: 60dvh;
+        padding: 25px;
+    }
+
+
 
     .soft-skills__title {
         display: flex;
@@ -60,6 +68,8 @@
     .soft-skills__line {
         display: flex;
         flex-flow: wrap;
+        width: 90dvw;
+        height: 40dvh;
     }
 
     .soft-skills__box {
