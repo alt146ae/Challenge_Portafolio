@@ -71,6 +71,18 @@
         
     }
 
+    .Container_Botones{
+        display: flex;
+          flex-wrap: nowrap;
+          
+          justify-content: flex-start;
+          font-size: 1.4em;
+          gap: 20px; 
+          
+          width: 400px;
+          font-size: .9em;
+      }
+
     .experience__description{
         display: flex;
         justify-content: flex-start;
@@ -99,5 +111,12 @@
     .experience h3{
         margin-top: 15px;
         font-size: 2em;
+    }
+
+    .Container_Botones{
+        
+        width: 25dvw;
+        height: 10dvh;
+        font-size: 1.8em;
     }
 }

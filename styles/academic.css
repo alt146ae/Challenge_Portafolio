@@ -31,16 +31,7 @@
        
  }
 
- .Container_Botones{
-    display: flex;
-      flex-wrap: nowrap;
-      justify-content: space-evenly;
-      font-size: 1.4em;
-      gap: 20px; 
-      
-      width: 400px;
-      font-size: .9em;
-  }
+ 
 
 
 .boton--repo{
@@ -179,12 +170,7 @@
 
     }
 
-    .Container_Botones{
-        
-        width: 25dvw;
-        height: 10dvh;
-        font-size: 1.8em;
-    }
+   
 
     .boton--repo{
         width: 15dvw;

@@ -34,18 +34,23 @@
 }
 
 
-input {
-    width: 100%;
+.campo__completo{
+    width: 90dvw;
     padding: 10px;
     box-sizing: border-box;
-    background: none;
+    background: black;
     outline: none;
     resize: none;
-    border: 0;
+    border: white 8px ridge;
     font-family: 'Montserrat', sans-serif;
     transition: all .3s;
-    border-bottom: 2px solid #bebed2
+    border-bottom: 2px solid #bebed2;
+    margin-left: 20px;
+    border-radius: 20px;
+    display: block;
+    margin-top: .5em;
 }
+
 
 input:focus {
     border-bottom: 2px solid #78788c
@@ -61,6 +66,7 @@ p:before {
 
 .formcontato__botao {
     background: #59ABE3;
+    width: 100%;
     float: right;
     padding: 8px 12px;
     margin: 8px 0 0;
@@ -76,26 +82,13 @@ button:hover {
     color: #fff
 }
 
-.campo__completo {
 
-    display: block;
-    border: white 8px ridge;
-    margin: 10px;
-    border-radius: 20px;
-    width: 100%;
-    padding: 1em;
-    margin-top: .5em;
 
-}
-
-.campo__etiqueta {
-    margin: 10px;
-}
 
 #mensaje {
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 10px;
-    width: 96%;
+    width: 85dvw;
     border: white 8px ridge;
     border-radius: 10px;
     color: white;
@@ -115,6 +108,7 @@ button:hover {
 }
 
 .campo__etiqueta {
+    margin: 10px;
     font-weight: 500;
     line-height: 20px;
 }
@@ -122,8 +116,8 @@ button:hover {
 @media (min-width: 781px) and (max-width: 1024px) {
 
     .formcontato{
-        background-color: red;
-        margin-bottom: 15px;
+        
+        margin-bottom: 1px;
     }
     .formcontato__contacto {
         background-color: rgb(0, 0, 0, .8);
