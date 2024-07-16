@@ -31,10 +31,59 @@
        
  }
 
-.academic__courses__box{
-    /*background-color: white;   */
-              
+ .Container_Botones{
+    display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      font-size: 1.4em;
+      gap: 20px; 
+      
+  }
+
+
+.boton--repo{
+    height: 64px;
+    width: 281px;
+    cursor: pointer;
+    
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius:20px;
+    letter-spacing: 4px;
+    text-decoration: none;
+        overflow: hidden;
+        color: white;
+        border: 3px solid white;
+    transition: 0.2s;
+    background-color: black;
+    &:hover {
+        box-shadow: 0 0 20px #00f, 0 0 30px #00f, 0 0 40px #00f, 0 0 50px #00f; /* Cambia el color de fondo al pasar el mouse */
+        color: yellow; /* Cambia el color del texto al pasar el mouse */
+        transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón */
 }
+}
+
+
+.boton--demo{
+    height: 64px;
+   width: 281px;
+   cursor: pointer;
+   letter-spacing: 4px;
+   border-radius:20px;
+   border: 3px solid white;
+    background-color: black;
+    color: white;
+    &:hover {
+        box-shadow: 0 0 20px #00f, 0 0 30px #00f, 0 0 40px #00f, 0 0 50px #00f; /* Cambia el color de fondo al pasar el mouse */
+        color: yellow; /* Cambia el color del texto al pasar el mouse */
+        transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón */
+    }
+    @media (min-width: 481px) and (max-width: 1025px) {
+        width: 150px;
+    }
+}
+
 .academic__courses__item__title{
     /*background-color: #eaf2fd;*/
     font-weight: bold;
@@ -108,7 +157,7 @@
     }
     .academic__title {
         display: flex;
-        margin-top: 15px;
+        margin-top: 55px;
         margin-bottom: 15px;
         justify-content: center;
         font-size: 55px;

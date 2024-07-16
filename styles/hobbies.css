@@ -1,6 +1,6 @@
 .hobbies__title {
     display: flex;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-bottom: 15px;
     justify-content: center;
     font-size: 35px;
@@ -118,7 +118,7 @@
 /*full hd*/
 @media (min-width:1420px) {
     .hobbies{
-        margin-top: 15px;
+        margin-top: 75px;
         margin-bottom: -100px;
         height: 400px;
         width: 95%;

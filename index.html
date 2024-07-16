@@ -47,9 +47,12 @@
                         Oracle ONE en Alura Latam G6.</h3>
                     <ul class="title__network">
                         <!-- Pon los enlaces de tus redes sociales favoritas -->
-                        <li class="title__network__item"><a href="https://github.com/alt146ae" target="_blank">Github <img src="assets\arrow.png"> </a></li>
-                        <li class="title__network__item"><a href="https://www.linkedin.com/in/emanuel-cm" target="_blank">Linkedin <img src="assets\arrow.png"></a></li>
-                        <li class="title__network__item"><a href="https://www.instagram.com/ae052189/" target="_blank">Instagram <img src="assets\arrow.png"></a></li>
+                        <li class="title__network__item"><a href="https://github.com/alt146ae" target="_blank">Github
+                                <img src="assets\arrow.png"> </a></li>
+                        <li class="title__network__item"><a href="https://www.linkedin.com/in/emanuel-cm"
+                                target="_blank">Linkedin <img src="assets\arrow.png"></a></li>
+                        <li class="title__network__item"><a href="https://www.instagram.com/ae052189/"
+                                target="_blank">Instagram <img src="assets\arrow.png"></a></li>
                         <li class="title__network__item"><a href="">Currículo <img src="assets\arrow.png"></a></li>
                     </ul>
                 </div>
@@ -268,8 +271,7 @@
             <div class="experience__box">
                 <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
 
-                <img class="experience__img" src="assets/encr.png" srcset="
-        assets/encr.png 450w,
+                <img class="experience__img" src="assets/encr.png" srcset="assets/encr.png 450w,
         assets/tablet-encriptador.png 768w">
 
 
@@ -282,13 +284,12 @@
                     <div class="experience__description">
                         <!-- Pon el enlace del proyecto en Github o GithubPages  -->
                         <br>
-                        <div class="btn-1">
+                        <div class="Container_Botones">
                             <a href="https://github.com/alt146ae/Challenge_Portafolio"><span class="experience__repo">
                                     <button class="boton--repo">Repositorio</button></a></span>
-                        </div>
-                        <div class="btn-2">
                             <a href="https://alt146ae.github.io/Challenge_encriptador/"><span class="experience__demo">
                                     <button class="boton--demo">Ver demo</button></a></span>
+
                         </div>
                     </div>
                 </div>
@@ -314,59 +315,62 @@
             </div>
         </section>
 
-    </main>
-    <!-- Sección de Contacto -->
-    <section class="formcontato" id="contacto">
-        <div class="formcontato__contacto">
-            <div class="formcontato--esquerda">
-                <img class="formcontato__img" src="assets\contact_image.png">
-            </div>
-            <div class="formcontato__text">
-                <h2 class="formcontato__title">Contacto</h2>
-                <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
-                <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo
-                    antes posible. </h3>
 
-                <form  class="principal__formulario" data-formulario>
-                    <fieldset class="formulario__campo">
-                        <label class="campo__etiqueta" for="nombre">Nombre</label>
-                        <input type="text" name="nombre" id="nombre" class="campo__completo" 
-                            placeholder="XXXXX-XXXXX-XXXXX" minlength="3" required />
-                        <span class="mensaje-error"></span>
-                    </fieldset>
-                    <fieldset class="formulario__campo">
-                        <label class="campo__etiqueta" for="email">E-mail</label>
-                        <input type="email" name="email" id="email" class="campo__completo" 
-                            placeholder="ejemplo@ejemplo.com" minlength="5" required />
-                        <span class="mensaje-error"></span>
-                    </fieldset>
-                    <fieldset class="formulario__campo">
-                        <label class="campo__etiqueta" for="asunto">
-                            Asunto</label>
-                        <input type="text" name="asunto" id="asunto" class="campo__completo campo__completo--menor" 
-                            minlength="8" placeholder="XXXXXXXXXX" required />
-                        <span class="mensaje-error"></span>
-                    </fieldset>
-
-                    <fieldset class="formulario__campo">
-                        <!-- <label class="campo__text" for="textarea">Mensaje</label> -->
-                        <textarea name="mensaje" id="mensaje" class="campo__etiqueta" rows="5" cols="40"
-                            placeholder="Escriba su mensaje" style="background-color: #000000;" minlength="5" maxlength="300" required></textarea>
-                        <!-- <input name="textmensaje" id="textmensaje" class="campo__txarea" type="text" minlength="5" required/> -->
-                        <span class="mensaje-error"></span>
-                    </fieldset>
-
-                    <div>
-                    <input value="Enviar"  class="formcontato__botao" id="enviar" disabled data-boton-enviar type="submit"/>
-                    <span class="mensaje-error"></span>
+        <!-- Sección de Contacto -->
+        <section class="formcontato" id="contacto">
+            <div class="formcontato__contacto">
+                <div class="formcontato--esquerda">
+                    <img class="formcontato__img" src="assets\contact_image.png">
                 </div>
-                </form>
+                <div class="formcontato__text">
+                    <h2 class="formcontato__title">Contacto</h2>
+                    <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
+                    <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted
+                        lo
+                        antes posible. </h3>
+
+                    <form class="principal__formulario" data-formulario>
+                        <fieldset class="formulario__campo">
+                            <label class="campo__etiqueta" for="nombre">Nombre</label>
+                            <input type="text" name="nombre" id="nombre" class="campo__completo"
+                                placeholder="XXXXX-XXXXX-XXXXX" minlength="3" required />
+                            <span class="mensaje-error"></span>
+                        </fieldset>
+                        <fieldset class="formulario__campo">
+                            <label class="campo__etiqueta" for="email">E-mail</label>
+                            <input type="email" name="email" id="email" class="campo__completo"
+                                placeholder="ejemplo@ejemplo.com" minlength="5" required />
+                            <span class="mensaje-error"></span>
+                        </fieldset>
+                        <fieldset class="formulario__campo">
+                            <label class="campo__etiqueta" for="asunto">
+                                Asunto</label>
+                            <input type="text" name="asunto" id="asunto" class="campo__completo campo__completo--menor"
+                                minlength="8" placeholder="XXXXXXXXXX" required />
+                            <span class="mensaje-error"></span>
+                        </fieldset>
+
+                        <fieldset class="formulario__campo">
+                            <!-- <label class="campo__text" for="textarea">Mensaje</label> -->
+                            <textarea name="mensaje" id="mensaje" class="campo__etiqueta" rows="5" cols="40"
+                                placeholder="Escriba su mensaje" style="background-color: #000000;" minlength="5"
+                                maxlength="300" required></textarea>
+                            <!-- <input name="textmensaje" id="textmensaje" class="campo__txarea" type="text" minlength="5" required/> -->
+                            <span class="mensaje-error"></span>
+                        </fieldset>
+
+                        <div>
+                            <input value="Enviar" class="formcontato__botao" id="enviar" disabled data-boton-enviar
+                                type="submit" />
+                            <span class="mensaje-error"></span>
+                        </div>
+                    </form>
+
+                </div>
 
             </div>
-
-        </div>
-    </section>
-
+        </section>
+    </main>
     <!-- Sección de Footer -->
     <section class="footer">
         <div class="footer__rodapie">
@@ -374,7 +378,6 @@
             <p class="p2f">2024</p>
         </div>
     </section>
-
     <!-- Script del documento JavaScript -->
     <script src="JS/validacion.js" type="module"></script>
 </body>

@@ -156,7 +156,13 @@
     .skills__title {
         font-size: 55px;
     }
-
+    .skills__line {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        padding: 50px;
+        gap: 200px;
+    }
   
 
     .skills__name {
