@@ -17,7 +17,7 @@
 
 # Descripción del proyecto
 
-Este es un proyecto de Html y Css el cual muestra un portafolio, con un fomulario validando camposs. tiene responsive 
+Este es un proyecto de Html y Css el cual muestra un portafolio, con un fomulario validando campos. tiene responsive 
 
 ## Características
 
