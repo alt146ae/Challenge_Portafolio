@@ -57,9 +57,7 @@
             color: yellow; /* Cambia el color del texto al pasar el mouse */
             transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón */
         }
-        @media (min-width: 481px) and (max-width: 1025px) {
-            width: 150px;
-        }
+       
     }
     
     .boton--repo{

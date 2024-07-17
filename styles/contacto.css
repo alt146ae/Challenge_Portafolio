@@ -66,16 +66,19 @@ p:before {
 }
 
 .formcontato__botao {
-    background: #59ABE3;
-    width: 100%;
-    float: right;
-    padding: 8px 12px;
-    margin: 8px 0 0;
-    border: 2px solid #78788c;
-    opacity: 80%;
-    color: #5a5a6e;
+    height: 50px;
+    width: 50dvw;
     cursor: pointer;
-    transition: all .3s
+    letter-spacing: 4px;
+    border-radius:20px;
+    border: 3px solid white;
+     background-color: black;
+     color: white;
+     &:hover {
+         box-shadow: 0 0 20px #00f, 0 0 30px #00f, 0 0 40px #00f, 0 0 50px #00f; /* Cambia el color de fondo al pasar el mouse */
+         color: yellow; /* Cambia el color del texto al pasar el mouse */
+         transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón */
+     }
 }
 
 button:hover {
