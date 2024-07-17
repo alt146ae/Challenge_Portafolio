@@ -7,6 +7,71 @@
     width: 90vw;
     }
 
+
+    .Container_Botones{
+        display: flex;
+          flex-wrap: nowrap;
+          justify-content: flex-start;
+          font-size: 1.4em;
+          gap: 20px; 
+          
+          width: 400px;
+          font-size: .9em;
+      }
+
+    .boton--repo{
+        height: 50px;
+        width: 120px;
+        cursor: pointer;
+        
+        position: relative;
+        display: inline-block;
+        padding: 5px 3px;
+        border-radius:20px;
+        letter-spacing: 4px;
+        text-decoration: none;
+            overflow: hidden;
+            color: white;
+            border: 3px solid white;
+        transition: 0.2s;
+        background-color: black;
+        &:hover {
+            box-shadow: 0 0 20px #00f, 0 0 30px #00f, 0 0 40px #00f, 0 0 50px #00f; /* Cambia el color de fondo al pasar el mouse */
+            color: yellow; /* Cambia el color del texto al pasar el mouse */
+            transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón */
+    }
+    }
+    
+    
+    .boton--demo{
+        height: 50px;
+       width: 120px;
+       cursor: pointer;
+       letter-spacing: 4px;
+       border-radius:20px;
+       border: 3px solid white;
+        background-color: black;
+        color: white;
+        &:hover {
+            box-shadow: 0 0 20px #00f, 0 0 30px #00f, 0 0 40px #00f, 0 0 50px #00f; /* Cambia el color de fondo al pasar el mouse */
+            color: yellow; /* Cambia el color del texto al pasar el mouse */
+            transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón */
+        }
+        @media (min-width: 481px) and (max-width: 1025px) {
+            width: 150px;
+        }
+    }
+    
+    .boton--repo{
+        width: 15dvw;
+        height: 10dvh;
+    }
+    .boton--demo{
+        width: 15dvw;
+        height: 10dvh;
+    }
+
+
     .experience__section__title{
         display: flex;
         margin-top: 10px;
@@ -71,19 +136,10 @@
         
     }
 
-    .Container_Botones{
-        display: flex;
-          flex-wrap: nowrap;
-          
-          justify-content: flex-start;
-          font-size: 1.4em;
-          gap: 20px; 
-          
-          width: 400px;
-          font-size: .9em;
-      }
+   
 
     .experience__description{
+        
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
@@ -92,13 +148,13 @@
         
     }
 /* ///pc //*/
-@media (min-width: 1201px) and (max-width: 1920px) {
+@media (min-width: 1201px) and (max-width: 1801px) {
 
 .primera_parte{
     
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     width: 95dvw;
     gap: 100px;
@@ -110,11 +166,12 @@
 }
 
 .experience__info-container{
-    
+            
     width: 30dvw;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-star;
+    font-size: 2em;
 }
 
 .segunda_parte {
@@ -147,33 +204,70 @@
     margin-left: 1dvw;
 }
 
+.Container_Botones{
+    font-size: 2.3em;
+}
+
 
 }
     /*full hd*/
-@media (min-width:1420px) {
-    .experience{
-        display: flex;
-    }
-
-    .experience__section__title{
-        display: flex;
-        margin-top: 1500px;
-        margin-bottom: 50px;
-        font-size: 3em;
-    }
-    .experience h2{
-        margin-top: 15px;
-        font-size: 2.5em;
-    }
-    .experience h3{
-        margin-top: 15px;
-        font-size: 2em;
-    }
+    @media (min-width: 1801px) and (max-width: 2800px) {           
+         
+        .primera_parte{
+    
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            width: 95dvw;
+            gap: 100px;
+        }
+        
+        .primera_parte img{
+            width: 50dvw;
+            margin-left: 1dvw;
+        }
+        
+        .experience__info-container{
+            
+            width: 30dvw;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-star;
+            font-size: 2em;
+        }
 
     .Container_Botones{
-        
-        width: 25dvw;
-        height: 10dvh;
-        font-size: 1.8em;
+        font-size: 2.3em;
     }
+        
+        .segunda_parte {
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 95dvw;
+            
+        }
+        
+        .experience__img_issste{
+            width: 50dvw;
+            margin-left: 1dvw;
+        }
+        
+        .tercera_parte {
+            
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 95dvw;
+            
+        }
+        
+        .experience__img_c4{
+            width: 50dvw;
+            margin-left: 1dvw;
+        }
 }

@@ -32,51 +32,6 @@
  }
 
  
-
-
-.boton--repo{
-    height: 50px;
-    width: 120px;
-    cursor: pointer;
-    
-    position: relative;
-    display: inline-block;
-    padding: 5px 3px;
-    border-radius:20px;
-    letter-spacing: 4px;
-    text-decoration: none;
-        overflow: hidden;
-        color: white;
-        border: 3px solid white;
-    transition: 0.2s;
-    background-color: black;
-    &:hover {
-        box-shadow: 0 0 20px #00f, 0 0 30px #00f, 0 0 40px #00f, 0 0 50px #00f; /* Cambia el color de fondo al pasar el mouse */
-        color: yellow; /* Cambia el color del texto al pasar el mouse */
-        transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón */
-}
-}
-
-
-.boton--demo{
-    height: 50px;
-   width: 120px;
-   cursor: pointer;
-   letter-spacing: 4px;
-   border-radius:20px;
-   border: 3px solid white;
-    background-color: black;
-    color: white;
-    &:hover {
-        box-shadow: 0 0 20px #00f, 0 0 30px #00f, 0 0 40px #00f, 0 0 50px #00f; /* Cambia el color de fondo al pasar el mouse */
-        color: yellow; /* Cambia el color del texto al pasar el mouse */
-        transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón */
-    }
-    @media (min-width: 481px) and (max-width: 1025px) {
-        width: 150px;
-    }
-}
-
 .academic__courses__item__title{
     /*background-color: #eaf2fd;*/
     font-weight: bold;
@@ -168,18 +123,22 @@
         font-size: 1.5em;
         margin-bottom: 150px;
 
-    }
-
-   
-
-    .boton--repo{
-        width: 15dvw;
-        height: 10dvh;
-    }
-    .boton--demo{
-        width: 15dvw;
-        height: 10dvh;
-    }
+    }   
 
 }
+
+@media (min-width: 1801px) and (max-width: 2800px) {
+
+
+.academic_t{
+    margin-top: 1px;
+}
+
+.academic__title{
+    
+    margin-top: 1px;
+}
+}
+
+
 

@@ -179,7 +179,7 @@ button:hover {
 }
 
 
-@media (min-width: 1201px) and (max-width: 1919px) {
+@media (min-width: 1201px) and (max-width: 1800px) {
 
     .formcontato {
         
@@ -235,4 +235,60 @@ button:hover {
         width: 15dvw;
     }
 
+}
+
+@media (min-width: 1801px) and (max-width: 2800px) {
+
+    .formcontato__img {
+        display: block;
+        width: 45dvw;
+        height: 80dvh;
+    }
+
+    .formcontato {
+        
+        display: flex;
+        width: 95dvw;
+        height: 90dvh;
+    }
+
+    .formcontato__text h2 {
+        display: flex;
+        font-size: 2.5em;
+    }
+
+    .formcontato__text h3 {
+        
+        width: 45dvw;
+        display: flex;
+        font-size: 1.5em;
+        text-align: justify;
+        margin-bottom: 15px;
+    }
+    .formulario__campo {
+        
+        width: 45dvw;
+        
+    }
+
+    .campo__etiqueta{
+        
+        font-size: 1.5em;
+    }
+
+    .campo__completo {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 49dvw;
+    }
+
+    #mensaje {
+        width: 47dvw;
+    }
+
+    .formcontato__botao {
+        
+        float: left;
+        width: 20dvw;
+    }
 }

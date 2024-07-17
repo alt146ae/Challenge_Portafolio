@@ -47,7 +47,7 @@
 /*tablet*/
 @media (min-width: 781px) and (max-width: 1200px) {
 
-    .soft-skills{
+    .soft-skills {
         width: 90dvw;
         height: 60dvh;
         padding: 25px;
@@ -94,12 +94,12 @@
 
     .soft-skills__title {
         display: flex;
-        
+
         margin-bottom: 10px;
         justify-content: center;
         font-size: 35px;
         font-weight: bold;
-    
+
     }
 
     .soft-skills__line {
@@ -119,7 +119,7 @@
         gap: 10px;
     }
 
-    .soft-skills__img{
+    .soft-skills__img {
         display: flex;
         flex-flow: row;
         justify-content: space-between;
@@ -129,7 +129,7 @@
         height: 17vh;
     }
 
-    .soft-skills__box ul{
+    .soft-skills__box ul {
         display: flex;
         flex-flow: column;
         justify-content: space-between;
@@ -140,31 +140,57 @@
         font-size: 18px;
         line-height: 1.5;
         text-align: center;
-    };
+    }
+
+    ;
 
     .soft-skills__name {
         font-weight: bold;
-      
-        
-            }
+
+
+    }
 }
 
 /*full hd*/
-@media (min-width:1801px){
+@media (min-width: 1801px) and (max-width: 2800px) {
+
+    .soft-skills__title {
+        font-size: 4em;
+        margin-bottom: 1px;
+        
+    }
+
 
     .soft-skills{
-        margin-top: 1px;
-        height: 400px;
-        width: 95%;
-        display: flex;
-        flex-direction: column;
+        
+        width: 95dvw;
+        height: 40dvh;
+        padding: 25px;
+        justify-content: space-around;
+        flex-flow: row;    
     }
-    .soft-skills__title {
-        font-size: 55px;
-        }
-.soft-skills__name{
-    font-size: 25px;
-    font-weight: bold;
-}
 
+
+    .soft-skills__box{
+        display: flex;
+        width: 10dvw;
+        height: 20dvh;
+        flex-flow: row;
+        padding: 10px;
+        gap: 10px;
+        align-items: flex-start;
     }
+
+    .soft-skills__img{
+        width: 9dvw;
+        height: 18dvh;
+    }
+    .soft-skills__name {
+        margin-top: 1dvh;
+        width: 8dvw;
+        font-size: 1.5em;
+        text-align: center;
+        font-weight: bold;
+    }
+
+}
